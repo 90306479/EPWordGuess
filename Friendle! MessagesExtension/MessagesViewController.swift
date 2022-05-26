@@ -715,7 +715,7 @@ class MessagesViewController: MSMessagesAppViewController {
                 layout.caption = "Game Over!"
             } else {
                 layout.image = UIImage(named: "normalImage")
-                layout.caption = "Let's Play Friendle!"
+                layout.caption = "Let's Play EPHS Word Guess!"
             }
     
             let message = MSMessage()
