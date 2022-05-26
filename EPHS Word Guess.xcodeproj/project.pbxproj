@@ -68,8 +68,8 @@
 		5E7537B227C93CFE00088597 = {
 			isa = PBXGroup;
 			children = (
-				5E7537BB27C93CFE00088597 /* Friendle! */,
-				5E7537C927C93D0300088597 /* Friendle! MessagesExtension */,
+				5E7537BB27C93CFE00088597 /* EPHS Word Guess */,
+				5E7537C927C93D0300088597 /* EPHS Word Guess MessagesExtension */,
 				5E7537C627C93D0300088597 /* Frameworks */,
 				5E7537BA27C93CFE00088597 /* Products */,
 			);
@@ -84,13 +84,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5E7537BB27C93CFE00088597 /* Friendle! */ = {
+		5E7537BB27C93CFE00088597 /* EPHS Word Guess */ = {
 			isa = PBXGroup;
 			children = (
 				5EED280427F756A0001624A5 /* Info.plist */,
 				5E7537BC27C93D0200088597 /* Assets.xcassets */,
 			);
-			path = "Friendle!";
+			path = "EPHS Word Guess";
 			sourceTree = "<group>";
 		};
 		5E7537C627C93D0300088597 /* Frameworks */ = {
@@ -101,7 +101,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5E7537C927C93D0300088597 /* Friendle! MessagesExtension */ = {
+		5E7537C927C93D0300088597 /* EPHS Word Guess MessagesExtension */ = {
 			isa = PBXGroup;
 			children = (
 				5E7537CA27C93D0300088597 /* MessagesViewController.swift */,
@@ -110,7 +110,7 @@
 				5E7537CF27C93D0500088597 /* Assets.xcassets */,
 				5E7537D127C93D0500088597 /* Info.plist */,
 			);
-			path = "Friendle! MessagesExtension";
+			path = "EPHS Word Guess MessagesExtension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,12 +356,13 @@
 		5E7537D527C93D0500088597 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Messages Icon";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 883DK65VTV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Friendle! MessagesExtension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Friendle!";
+				INFOPLIST_FILE = "EPHS Word Guess MessagesExtension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "EPHS Word Guess";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -381,12 +382,13 @@
 		5E7537D627C93D0500088597 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Messages Icon";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 883DK65VTV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Friendle! MessagesExtension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Friendle!";
+				INFOPLIST_FILE = "EPHS Word Guess MessagesExtension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "EPHS Word Guess";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -407,11 +409,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 883DK65VTV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Friendle!/Info.plist";
+				INFOPLIST_FILE = "EPHS Word Guess/Info.plist";
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -428,11 +431,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 883DK65VTV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Friendle!/Info.plist";
+				INFOPLIST_FILE = "EPHS Word Guess/Info.plist";
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
