@@ -2,7 +2,8 @@
 
 EPHS Word Game is an app that resembles the popular New York Times word game "Wordle" where players guess a set 5 letter word and get feedback after making there guess, i.e. what letters are in the correct spot or which ones are not in the word at all. To set our app apart from Wordle and others like it, we decided to add in a multiplayer element and design it to be played by 2 people over the iMessage platform. When brainstorming ideas for what project to focus on during the second half of advanced iOS semester one, we decided we wanted to create a game rather than an app. Connecting the game to wordle was an obvious choice considering its popularity, but to make our game different we decided we wanted to add a multiplayer element to the game. 
 
-![first](firstscreen.png)  ![mssgs](actualMessages.png)
+![first](first.png)  ![mssgs](second.png)
+
 
 SECOND TERM PROGRESS -
 
@@ -12,11 +13,11 @@ I used my goals at the end of the first term of iOS as a guideline for the first
 
 Once I had the functions of the game ready, I worked on ending the game, which happens when either player guesses the target word. This was actually a fairly simple function which included checking to see if the target word matched the actual word, and displaying the win message on the screen. This function also changed the message sent to the other user, which would be titled "Game Over" and display the game over image instead of the normal message image. Along with working on ending the game, I also listened to feedback and added a "Swipe up to play" page which would be displayed when the app was opened. Doing this made it easier for the player to know how to start playing the game, and took away bugs that came up when a player would try to play in compact view.
 
-![won](gamewon.png) ![over](gameover.png)
+![won](youwin.png) ![over](gameover.png)
 
 At this point, the app had enough functionality where we felt it was ready to be put into beta testing. We made posters to hang up across the school to encourage people to download the beta version of the app and test it out in order to gain feedback about the app. This feedback brought up the fact that the letter coloring did not always accurately reflect the target words, as it was getting messed up due to double/triple letters in a word. Eventually, I found a way to put each letter of the target word in an array, then remove the letters when used in order to not repeat yellow tiles for double letters. Along with this, I also added delays to create animation for coloring letter to make the process more engaging for the user.
 
-![ui](newui.png)
+![ui](lettercolors.png)
 
 Another piece of feedback that came from beta testing was the act that users were able to play as many times in a row as they wanted, rather than only being allowed one term. After trying without sucess to come up with a solution for this, we met with Paul Ramos to hear his ideas. After this meeting, I followed his suggestions and looked into unique message identifiers. I spent time differentiating remote participant identifiers from local participant identifiers and from sender participant identifiers. I definitely have a better understanding of what these identifiers do now, but I was unfortunately unable to implement them into our code in order to differentiate between each player.
 
@@ -31,6 +32,8 @@ Towards the end of the term, we started looking at getting our app into the app 
 ![promote](promotion.png)
 
 Obviously, if we are unable to do so, our goal for the future would be to get the app into the store. In the future, I would also utilize the extra time to implement remote identifiers into the app so it can track who each player is. We also talked to Paul about adding categories and different word lists into the app, which we believe would be a very interesting aspect to add.
+
+
 
 
 FIRST TERM PROGRESS -
